@@ -85,3 +85,36 @@ input.desktop-searchBar{
 .outline:hover{
   background-color: #fff;
 }
+.profile-dropdown-wrapper{
+  padding: 25px 20px 15px;
+  width: 230px;
+}
+.men-dropdown-wrapper{
+  width: 1150px;
+  padding: 25px 20px 15px;
+}
+.women-dropdown-wrapper{
+  width:1150px;
+  padding: 25px 20px 15px;
+}
+.active1:hover{
+  border-bottom: 2px solid #e75480 ;
+}
+.kids-dropdown-wrapper{
+  width: 1150px;
+  padding: 25px 20px 15px;
+}
+.home-dropdown-wrapper{
+  width: 1150px;
+  padding: 25px 20px 15px;
+}
+.offer-dropdown-wrapper{
+  width: 800px;
+  padding: 25px 20px 15px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
