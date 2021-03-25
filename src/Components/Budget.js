@@ -10,14 +10,14 @@ export default class Budget extends Component {
     render() {
         return (
             <>
-                <div>
+                <div className="budget-web">
                     <div className="mt-1 ml-5">
                         <br/>
-                        <h4 className="text-banner-title">the kids space</h4>
-                        <h4 className="text-banner-subtitle"></h4>
+                        <h4 className="text-banner-title">Budget Buy</h4>
+                        {/* <h4 className="text-banner-subtitle"></h4> */}
                     </div>
                     <br/>
-                    <div className="images mt-2">
+                    <div className="budgetimg mt-2">
                         <img src={p1} alt="pay1" width="250" />
                         <img src={p2} alt="pay2" width="250"/>
                         <img src={p3} alt="pay2" width="250"/>
@@ -27,7 +27,7 @@ export default class Budget extends Component {
                     </div>
                 </div>
                 <br/> 
-                <Brands/>
+                <Brands title="Shop more brands"/>
             </>
         )
     }
