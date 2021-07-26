@@ -91,10 +91,7 @@ const Footer = ({onShow,showFooter}) => {
                     </Container> 
                 </div>
                 <div className="footer-mobile">
-                    <p className="text-muted" style={{fontSize:14,marginRight:15}} onClick={onShow}>More about Kids Clothing - Buy Kids Cloth...{showFooter? 'close': 'opened'}  <RiArrowDownSLine /></p> 
-                </div>
-                <div className="mini-footer">
-                    <p>hello</p>
+                    <p className="text-muted" style={{fontSize:14,marginRight:15}} onClick={onShow}>More about Kids Clothing - Buy Kids Cloth...{showFooter? 'closed': 'opened'}  <RiArrowDownSLine /></p> 
                 </div>
             </div>
     )

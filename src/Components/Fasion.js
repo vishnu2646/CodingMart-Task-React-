@@ -10,7 +10,7 @@ import f8 from '../images/f8.jpg';
 import f9 from '../images/f9.jpg';
 import f10 from '../images/f10.jpg';
 import Explore from './Explore';
-import { Card,Accordion,Carousel } from 'react-bootstrap';
+import { Card,Accordion,Carousel,ListGroup } from 'react-bootstrap';
 import { FiChevronRight } from 'react-icons/fi'
 import f11 from '../images/brands.PNG';
 import infants from "../images/infants.PNG";
@@ -56,7 +56,15 @@ export default class Fasion extends Component {
                             </Card.Header>
                             <Accordion.Collapse eventKey="0">
                                 <Card.Body>
-                                    
+                                    <ListGroup>
+                                        <ListGroup.Item>Rompers</ListGroup.Item>
+                                        <ListGroup.Item>Clothing Sets</ListGroup.Item>
+                                        <ListGroup.Item>Top Wear</ListGroup.Item>
+                                        <ListGroup.Item>Bottom Wear</ListGroup.Item>
+                                        <ListGroup.Item>Ethnic Wear</ListGroup.Item>
+                                        <ListGroup.Item>Winter Wear</ListGroup.Item>
+                                        <ListGroup.Item>Essentials</ListGroup.Item>
+                                    </ListGroup>
                                 </Card.Body>
                             </Accordion.Collapse>
                         </Card>
@@ -67,7 +75,17 @@ export default class Fasion extends Component {
                                 </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
-                                <Card.Body></Card.Body>
+                                <Card.Body>
+                                    <ListGroup>
+                                        <ListGroup.Item style={{borderRight:0}}>Rompers</ListGroup.Item>
+                                        <ListGroup.Item>Clothing Sets</ListGroup.Item>
+                                        <ListGroup.Item>Top Wear</ListGroup.Item>
+                                        <ListGroup.Item>Bottom Wear</ListGroup.Item>
+                                        <ListGroup.Item>Ethnic Wear</ListGroup.Item>
+                                        <ListGroup.Item>Winter Wear</ListGroup.Item>
+                                        <ListGroup.Item>Essentials</ListGroup.Item>
+                                    </ListGroup>
+                                </Card.Body>
                             </Accordion.Collapse>
                         </Card>
                         </Accordion>
